@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+jwt:
+  secret: f054a5cfe15b06ffd0c99738bc4fbfdc0643efb4ebe6a5288d54484d2defd97ace25ec7d32ceb49a5b536b2bfba7cb49e5e04ec8744e445164846cd831008ed6
+
+zuul:
+  routes:
+    authentication-service:
+      path: /auth/**
+      url: http://127.0.0.1:8081
+    message-service:
+      path: /messages/**
+      url: http://127.0.0.1:8082
+    user-service:
+      path: /users/**
+      url: http://127.0.0.1:8083

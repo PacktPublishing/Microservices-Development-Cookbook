@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+zuul:
+  routes:
+    authentication-service:
+      path: /auth/login
+      url: http://127.0.0.1:8081
+    message-service:
+      path: /messages/**
+      url: http://127.0.0.1:8082
+    user-service:
+      path: /users/**
+      url: http://127.0.0.1:8083
