@@ -29,6 +29,7 @@ All of the code is organized into folders. For example, Chapter02.
 The code will look like the following:
 ```
 class AttachmentsService
+
    def upload(message_id, user_id, file_name, data, media_type)
     message = Message.find_by!(message_id, user_id: user_id)
     file = StorageBucket.files.create(
