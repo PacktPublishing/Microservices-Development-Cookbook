@@ -1,0 +1,6 @@
+server:
+ port: 5678
+
+sidecar:
+ port: 3000
+ health-uri: http://localhost:3000/health

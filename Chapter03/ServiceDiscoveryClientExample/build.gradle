@@ -1,0 +1,37 @@
+group 'com.packtpub.microservices'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'io.spring.gradle', name: 'dependency-management-plugin', version: '0.5.6.RELEASE'
+        classpath group: 'org.springframework.boot', name: 'spring-boot-gradle-plugin', version: '1.5.9.RELEASE'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+sourceCompatibility = 1.8
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.springframework.cloud:spring-cloud-zookeeper-dependencies:1.1.1.RELEASE'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.reactivex:rxjava:1.3.4'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zookeeper-discovery', version: '1.1.1.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign', version: '1.2.5.RELEASE'
+    compile group: 'org.springframework.kafka', name: 'spring-kafka', version: '2.1.1.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

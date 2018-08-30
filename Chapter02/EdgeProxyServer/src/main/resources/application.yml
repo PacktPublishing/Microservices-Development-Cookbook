@@ -1,0 +1,11 @@
+zuul:
+ routes:
+  signup:
+   path: /signup
+   url: http://monolith.pichat-int.me
+  auth:
+   path: /auth/login
+   url: http://monolith.pichat-int.me
+  attachments:
+   path: /attachments/**
+   url: http://attachment-service.pichat-int.me
