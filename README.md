@@ -45,16 +45,10 @@ With the following software and hardware list you can run all code files present
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 1-9 | Gradle | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
+| 1-9 | Gradle | Windows, Linux |
+|1-9 |Docker  | Windows, Linux |
+| 1-9 |Java  | Windows, Linux |
+| 1-9 |IntelliJ IDEA  | Windows |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
@@ -72,28 +66,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 Paul Osman has been building external and internal platforms for over 10 years. From public APIs targeted at third parties to internal platform teams, he has helped build distributed systems that power large-scale consumer applications. He has managed teams of engineers to rapidly deliver service-based software systems with confidence.
 Paul has published articles and given multiple conference talks on microservices and DevOps. He is a passionate advocate of open technology platforms and tools.
 
-****
-0
 
-****
-0
-
-****
-0
-
-****
-0
-
-## Other books by the authors
-[]()
-
-[]()
-
-[]()
-
-[]()
-
-[]()
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
