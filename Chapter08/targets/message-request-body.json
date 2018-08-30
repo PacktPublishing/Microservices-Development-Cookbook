@@ -1,0 +1,6 @@
+{
+    "sender": "user:32134",
+    "recipient": "user:12345",
+    "body": "Hello there!",
+    "attachment_uri": "http://foo.com/image.png"
+}

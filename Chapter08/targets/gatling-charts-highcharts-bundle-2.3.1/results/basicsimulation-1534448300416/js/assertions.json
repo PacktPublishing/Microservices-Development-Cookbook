@@ -1,0 +1,10 @@
+{
+  "simulation": "messageservice.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1534448300416,
+  "description": "dsa",
+  "scenarios": ["Create a message"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,6 @@
+POST http://localhost:8082/
+Content-Type: application/json
+@message-request-body.json
+
+GET http://localhost:8082/user/user:12345
+

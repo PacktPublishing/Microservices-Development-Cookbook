@@ -1,0 +1,4 @@
+RUN	messageservice.BasicSimulation	basicsimulation	basicsimulation	1534448300416	dsa	2.0
+USER	Create a message	1	START	1534448302172	1534448302172
+REQUEST	Create a message	1		createMessage	1534448302229	1534448302229	KO	j.n.ConnectException: Connection refused: localhost/127.0.0.1:8082
+USER	Create a message	1	END	1534448302172	1534448302291
