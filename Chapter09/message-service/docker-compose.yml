@@ -1,0 +1,16 @@
+version: '3'
+services:
+  messageservice:
+    build: .
+    ports:
+     - "8082:8082"
+    depends_on:
+     - nginx
+  nginx:
+    image: nginx
+    restart: always
+    ports:
+     - "8080:80"
+    volumes:
+     - ./nginx/conf.d:/etc/nginx/conf.d
+

@@ -1,0 +1,11 @@
+spring:
+  application.name: attachment-service
+  jpa.hibernate.ddl-auto: create
+  datasource.url: ${DATABASE_URL}
+  datasource.username: ${DATABASE_USERNAME}
+  datasource.password: ${DATABASE_PASSWORD}
+  cloud.vault.token: 00000000-0000-0000-0000-000000000000
+  cloud.vault.scheme: http
+
+s3:
+  bucket-name: test-bucket-posman

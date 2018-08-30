@@ -1,0 +1,22 @@
+server:
+  port:
+    8082
+
+management:
+  server:
+    port:
+      8081
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      base-path: "/manage"
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      prometheus:
+        enabled: true

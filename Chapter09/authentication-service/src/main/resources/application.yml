@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  jpa.hibernate.ddl-auto: create
+  datasource.url: jdbc:mysql://docker-mysql:3306/user_credentials
+  datasource.username: root
+  datasource.password: root
+
+hibernate.dialect: org.hibernate.dialect.MySQLInnoDBDialect
+
+secretKey: f054a5cfe15b06ffd0c99738bc4fbfdc0643efb4ebe6a5288d54484d2defd97ace25ec7d32ceb49a5b536b2bfba7cb49e5e04ec8744e445164846cd831008ed6

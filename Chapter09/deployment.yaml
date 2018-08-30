@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: message-service
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: "message-service"
+        track: "stable"
+    spec:
+      containers:
+        - name: "message-service"
+          image: "localhost:5000/message-service"
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8082
+          livenessProbe:
+            httpGet:
+              path: /ping
+              port: 8082
+              scheme: HTTP
+            initialDelaySeconds: 10
+            periodSeconds: 30
+            timeoutSeconds: 1
