@@ -1,0 +1,32 @@
+group 'com.packtpub.microservices'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'org.springframework.boot', name: 'spring-boot-gradle-plugin', version: '2.0.4.RELEASE'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.4.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.0.4.RELEASE'
+    compile group: 'io.micrometer', name: 'micrometer-core', version: '1.0.6'
+    compile group: 'io.micrometer', name: 'micrometer-registry-statsd', version: '1.0.6'
+    compile group: 'io.opentracing.contrib', name: 'opentracing-spring-cloud-starter-jaeger', version: '0.1.13'
+    compile group: 'io.github.resilience4j', name: 'resilience4j-circuitbreaker', version: '0.11.0'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: '5.2'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
