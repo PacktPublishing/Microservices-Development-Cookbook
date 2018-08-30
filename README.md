@@ -57,15 +57,10 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Microservice Patterns and Best Practices [[Packt]](https://www.packtpub.com/application-development/microservice-patterns-and-best-practices?utm_source=github&utm_medium=repository&utm_campaign=9781788474030 ) [[Amazon]](https://www.amazon.com/dp/1788474031)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
 ## Get to Know the Author
 **Paul Osman**
 Paul Osman has been building external and internal platforms for over 10 years. From public APIs targeted at third parties to internal platform teams, he has helped build distributed systems that power large-scale consumer applications. He has managed teams of engineers to rapidly deliver service-based software systems with confidence.
 Paul has published articles and given multiple conference talks on microservices and DevOps. He is a passionate advocate of open technology platforms and tools.
-
 
 
 ### Suggestions and Feedback
