@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: message-service-lb
+spec:
+  type: LoadBalancer
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8080
+    protocol: TCP
+  selector:
+    app: message-service
