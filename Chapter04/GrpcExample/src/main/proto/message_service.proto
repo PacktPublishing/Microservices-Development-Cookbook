@@ -1,0 +1,20 @@
+option java_package = "com.packtpub.microservices.ch04.grpc";
+
+message Username {
+    required string username = 1;
+}
+
+message Message {
+    required string id = 1;
+    required string from_user = 2;
+    required string to_user = 3;
+    required string body = 4;
+}
+
+message InboxReply {
+    repeated Message messages = 1;
+}
+
+service MessageService {
+    rpc inbox(Username) returns (InboxReply) {}
+}
