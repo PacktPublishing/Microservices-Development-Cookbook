@@ -46,10 +46,10 @@ With the following software and hardware list you can run all code files present
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 1-9 | Gradle | Windows, Linux |
-|1-9 |Docker  | Windows, Linux |
-| 1-9 |Java  | Windows, Linux |
-| 1-9 |IntelliJ IDEA  | Windows |
+| 1-9 | Gradle | Windows, MacOS, and Linux |
+|1-9 |Docker  | Windows, MacOS, and Linux |
+| 1-9 |Java  | Windows, MacOS, and Linux |
+| 1-9 |IntelliJ IDEA  | Windows, MacOS, and Linux |
 
 ### Related products
 * TypeScript Microservices [[Packt]](https://www.packtpub.com/application-development/typescript-microservices?utm_source=github&utm_medium=repository&utm_campaign=9781788830751 ) [[Amazon]](https://www.amazon.com/dp/178883075X)
